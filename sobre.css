@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(imagenes/fondo.jpg);
+    background-color: #191c32;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.brand{
+    margin-top: -7px;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu .active{
+    color: aqua;
+}
+.menu a:hover{
+background-color: aqua;
+color: black;
+transition: ease-in .5s;
+}
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+h1{
+    font-size: 3em;
+}
+span{
+    color: aqua;
+}
+.ocupacion{
+    color: rgb(17, 5, 46);
+}
+.dowload-cv{
+    padding: 10px 20px;
+    background-color:aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+.dowload-cv:hover{
+    background-color: rgb(240, 42, 207);
+    box-shadow: none;
+    transition: 1s;
+
+}
+.dowload-cv a{
+    color: rgb(5, 4, 85);
+    text-decoration: none;
+}
+
+.main img{
+    width: 450px;
+    border: 7px solid aqua;
+    
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.246);
+}
+
+.about img{
+    width: 100%;
+    grid-column: 1/5;
+    margin-top: 20px;
+    border: 1px solid yellow;
+}
+.about-info{
+    grid-column: 5/10;
+    padding: 3em;
+}
+.about-info h2{
+    font-size: 2em;
+    color: rgb(24, 30, 65);
+}
+.divider{
+    height: 4px;
+    width: 80px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 3em;
+}
+.about p{
+    margin-bottom: 2em;
+}
+footer{
+    width: 100wv;
+    background-color: rgb(180, 184, 184);
+    text-align: center;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-index{
+    background-color: black;
+    height: 80px;
+    margin-top: 10px;
+}
+
+
+.header-inicio{
+    background-color: aqua;
+    width: 100vw;
+    height: 90px;
+}
+.navard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.navard img{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.menu-inicio{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    margin-right: 50px;
+}
+.menu-inicio li{
+    margin-top: 25px;
+    list-style: none;
+    margin-right: 10px;
+}
+.menu-inicio a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: darkblue;
+    font-size: 20px;
+    background-color: rgba(11, 216, 216, 0.246);
+    border-radius: 20px;
+}
+.menu-inicio a:hover{
+    background-color: black;
+    color: aqua;
+    transition: 1s;
+    border-radius: 20px;
+}
+.foto-perfil{
+    width: 100wv;
+    height: 70vh;
+    background-image: url(imagenes/paisaje.webp);
+    background-position: center;
+    background-size: cover;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guille{
+    background-color: rgba(1, 204, 255, 0.123);
+    width: 400px;
+    padding: 5px;
+    border-radius: 50px;
+    text-align: center;  
+}
+.guille p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.buton-info{
+    border: none;
+    padding: 5px;
+    background-color:#109dfa;
+    border-radius: 20px;
+    border-bottom: 10px;
+    cursor: pointer;
+    box-shadow: rgb(5, 4, 85);
+}
+.buton-info:hover{
+    color: yellow;
+    background-color: rgb(240, 42, 207);
+    transition: 0.5s;
+}
