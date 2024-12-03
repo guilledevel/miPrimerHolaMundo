@@ -1,0 +1,42 @@
+---
+import logo from '/public/iconos/logo.png';
+import About from '../pages/About.astro';
+---
+<header class="bg-gray-800 text-white">
+    <div class="container mx-auto flex justify-between items-center py-4">
+        <div class="flex items-center">
+            <img src={logo.src} alt="Logo" class="h-10">
+        </div>
+        <div class="flex space-x-4">
+            <a href="" class="text-white hover:text-gray-400">inicio</a>
+            <a href="../pages/About.astro" class="text-white hover:text-gray-400">sobre mi</a>
+            <a href="" class="text-white hover:text-gray-400">contactame</a>
+            <a href="" class="text-white hover:text-gray-400">portafolio</a>
+        </div>
+    </div>
+    <div class="container mx-auto text-center py-16">
+        <div class="mb-8">
+            <h1 class="text-4xl font-bold">DESARROLLO WEB & GRAFICO</h1>
+            <p class="text-lg mt-4">Llevamos la web a tus manos</p>
+        </div>
+        <div>
+            <a href="#" class="btn p-4">iniciar sesión</a>
+        </div>
+    </div>
+</header>
+
+<style>
+    .btn{
+		color: white;
+		background: linear-gradient(83.21deg, #3245ff 0%, #bc52ee 100%);
+		box-shadow:
+			inset 0 0 0 1px rgba(255, 255, 255, 0.12),
+			inset 0 -2px 0 rgba(0, 0, 0, 0.24);
+		border-radius: 10px;
+	}
+
+	 .btn:hover {
+		color: rgb(230, 230, 230);
+		box-shadow: none;
+	}
+</style>
